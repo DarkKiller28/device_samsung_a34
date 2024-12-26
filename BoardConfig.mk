@@ -103,3 +103,4 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 include vendor/samsung/a34x/BoardConfigVendor.mk
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
