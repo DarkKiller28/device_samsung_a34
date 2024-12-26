@@ -102,3 +102,5 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
 include vendor/samsung/a34x/BoardConfigVendor.mk
+
+BUILD_BROKEN_DUP_RULES := true
